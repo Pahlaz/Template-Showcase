@@ -1,0 +1,84 @@
+* {
+	margin: 0px;
+	font-family: 'arial';
+	box-sizing: border-box;
+}
+body {
+	background: #eee;
+}
+
+header {
+	background: #232323;
+	color: #eee;
+	height: 50px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+header .title {
+	height: 50px;
+	font-size: 24px;
+	line-height: 50px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.templates {
+	margin: 40px 20px;
+}
+.template {
+	width: 100%;
+	background: #fff;
+	margin-bottom: 20px;
+	position: relative;
+	display: inline-block;
+	border-radius: 3px;
+	box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.6);
+}
+.template > img {
+	width: inherit;
+	display: block;
+}
+.template .btns {
+	width: inherit;
+	height: 40px;
+	color: #eee;
+	position: absolute;
+	bottom: 0px;
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	transition: opacity .4s ease-in-out;
+}
+.template:hover .btns {
+	opacity: 1;
+}
+.template .btn {
+	height: 30px;
+	line-height: 30px;
+	margin: 5px;
+	padding: 0px 10px;
+	background: #ddd;
+	color: #232323;
+	border-radius: 3px;
+	text-align: center;
+	float: right;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+	.templates {
+		margin: 40px 60px;
+	}
+	.template {
+		width: calc(50vw - 81px);
+	}
+	.template:nth-child(2n+1) {
+		margin-right: 20px;
+	}
+	.template .btns {
+		height: 50px;
+	}
+	.template .btn {
+		height: 30px;
+		margin: 10px;
+		font-size: 20px;
+	}
+}

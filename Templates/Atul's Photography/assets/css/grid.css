@@ -1,0 +1,22 @@
+:root{
+	--row-margin-bottom: 15px;
+	--col-gap: 20px;
+}
+
+.row{
+	margin-bottom: var(--row-margin-bottom);
+	display: -ms-flexbox;
+	display: flex;
+}
+.row .col:last-child{
+	margin-right: 0;
+}
+.col{
+	margin-right: var(--col-gap);
+	-ms-flex: 1;
+	    flex: 1;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.row, .col{
+	box-sizing: border-box;
+}

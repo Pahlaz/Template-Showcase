@@ -1,0 +1,59 @@
+/* Override these variables in your style sheet according to your requirements. */
+:root{
+	--row-margin-bottom: 20px;
+	--col-gap: 20px;
+}
+
+
+/* Main Styles of Grid System. */
+.row{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: var(--row-margin-bottom);
+	display: -ms-flexbox;
+	display: flex;
+}
+.row .col:last-child{
+	margin-right: 0;
+}
+.col{
+	margin-right: var(--col-gap);
+	-ms-flex: 1;
+	 flex: 1;
+}
+.col-1-12{
+	max-width: 8.3333%;
+}
+.col-2-12{
+	max-width: 16.6667%;
+}
+.col-3-12{
+	max-width: 25%;
+}
+.col-4-12{
+	max-width: 33.3333%;
+}
+.col-5-12{
+	max-width: 41.6667%;
+}
+.col-6-12{
+	max-width: 50%;
+}
+.col-7-12{
+	max-width: 58.3333%;
+}
+.col-8-12{
+	max-width: 66.6667%;
+}
+.col-9-12{
+	max-width: 75%;
+}
+.col-10-12{
+	max-width: 83.3333%;
+}
+.col-11-12{
+	max-width: 91.6667%;
+}
+.col-12-12{
+	max-width: 100%;
+}
