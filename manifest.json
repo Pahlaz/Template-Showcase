@@ -35,7 +35,7 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#342fc6",
+  "theme_color": "#232323",
   "background_color": "#fff",
   "description": "Template Showcase"
 }
