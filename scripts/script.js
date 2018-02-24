@@ -5,16 +5,16 @@
 		templateEls = document.querySelectorAll('.template'),
 		templatesData = [
 			{
-				'image': "../Templates/Atul's Photography/Screenshot.png",
-				'view': "../Templates/Atul's Photography/index.html"
+				'image': "./Templates/Atul's Photography/Screenshot.png",
+				'view': "./Templates/Atul's Photography/index.html"
 			},
 			{
-				'image': "../Templates/Template 1/Screenshot.png",
-				'view': "../Templates/Template 1/index.html"
+				'image': "./Templates/Template 1/Screenshot.png",
+				'view': "./Templates/Template 1/index.html"
 			},
 			{
-				'image': "../Templates/Shopping Site/Screenshot.png",
-				'view': "../Templates/Shopping Site/index.html"
+				'image': "./Templates/Shopping Site/Screenshot.png",
+				'view': "./Templates/Shopping Site/index.html"
 			}
 		];
 
