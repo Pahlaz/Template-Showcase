@@ -15,6 +15,10 @@
 			{
 				'image': "./Templates/Shopping Site/Screenshot.png",
 				'view': "./Templates/Shopping Site/index.html"
+			},
+			{
+				'image': "./Templates/Sign In Page/Screenshot.png",
+				'view': "./Templates/Sign In Page/index.html"
 			}
 		];
 
